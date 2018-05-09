@@ -1,10 +1,10 @@
 {
-    "name": "space48/magento2-patches",
+    "name": "jbutkowski/magento2-patches",
     "description": "A collection of patches for core Magento2",
     "authors": [
         {
-            "name": "DanCarlyon",
-            "email": "dan.carlyon@space48.com"
+            "name": "Justin Butkowski",
+            "email": "jbutkowski@gmail.com"
         }
     ],
     "require": {
@@ -23,14 +23,6 @@
             "magento/module-braintree": {
                 "Only loop through braintree configs if it is an array": {
                     "source" : "patches/Magento_Braintree/magento2-issue-12298.patch",
-                    "version" : [
-                        "100.2.*"
-                    ]
-                }
-            },
-            "magento/module-configurable-product": {
-                "Add frontend validation for SKU on configurable product variation generation in admin panel": {
-                    "source" : "patches/Magento_ConfigurableProduct/magento2-issue-11953.patch",
                     "version" : [
                         "100.2.*"
                     ]
